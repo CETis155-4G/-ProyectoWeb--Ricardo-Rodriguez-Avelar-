@@ -1,0 +1,13 @@
+label{
+    font-size:40 ;
+    font-family:"Opens Sans", sans-serif;
+
+}
+h1,p{
+    line-height:2;
+    font-size:0;
+    font-family: "Opens Sans", sans-serif;
+}
+body{   
+    background-color: rgba(149, 255, 255, 0.719);
+}
