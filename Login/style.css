@@ -6,10 +6,10 @@ label{/*label style*/
 h1,p{
     line-height:1;
     font-size:120%;
-    font-family: "fantasy";
+    font-family: "Arial";
 }
 body{   
-    background-color: rgb(255, 215, 215);
+    background-color: rgb(255, 255, 255);
 }
 
 input:hover{
