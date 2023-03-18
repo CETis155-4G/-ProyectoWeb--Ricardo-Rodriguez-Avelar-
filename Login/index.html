@@ -2,37 +2,37 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="Style.css" type="text/css">
+    <link rel="stylesheet" href="home.css" type="text/css">
     <!--titulo-->
     <title>Registrarse</title>
 </head>
 <!--Especificamos que esta pantalla es para iniciar sesion-->
 <center><h1>-Registrarse-</h1></center>
-<body><!--iniciamos con el formulario para poder crear una cuenta-->
+<body background=""><!--iniciamos con el formulario para poder crear una cuenta-->
     <form class="Formulario">
         <!--Poner correo electronico-->
+        <ul class="cabecera">
+
+        <li>
         <center><Label>Correo electronico:</Label></center>
-        <center><input type="email" placeholder="Pon tu correo electronico"></center>
+        <center><input type="email" placeholder="Pon tu correo electronico"></center></li>
         <!--Introducir contraseña-->
-        <center><Label>Contraseña:</Label></center>
-        <center><input type="password" placeholder="Pon tu contraseña"></center>
+        <li><center><Label>Contraseña:</Label></center>
+        <center><input type="password" placeholder="Pon tu contraseña"></center></li>
         <!--Introduce tu(s) nombre(s)-->
-        <center><Label>Nombre(s):</Label></center>
-        <center><input type="text" placeholder="Nombre(s)"></center>
+        <li><center><Label>Nombre(s):</Label></center>
+        <center><input type="text" placeholder="Nombre(s)"></center></li>
         <!--Escribe tu apellido paterno-->
-        <center><Label>Apellido Paterno:</Label></center>
-        <center><input type="text" placeholder="Apellido Paterno"></center>
+        <li><center><Label>Apellido Paterno:</Label></center>
+        <center><input type="text" placeholder="Apellido Paterno"></center></li>
         <!--Escribe tu apellido materno-->
-        <center><Label>Apellido Materno:</Label></center>
-        <center><input type="text" placeholder="Apellido Materno"></center>
+        <li><center><Label>Apellido Materno:</Label></center>
+        <center><input type="text" placeholder="Apellido Materno"></center></li>
         <!--Introduce tu numero de telefono-->
-        <center><Label>Numero de telefono:</Label></center>
-        <center><input type="text" minlength="10" maxlenght="13" placeholder="(+52) 449 ### ####"></center>
-        <!--Introducir tu pais-->
-        <center><Label>Pais:</Label></center>
-        <center><input type="text" placeholder="Tu Pais"></center>
+        <li><center><Label>Numero de telefono:</Label></center>
+        <center><input type="text" minlength="10" maxlenght="13" placeholder="(+52) 449 ### ####"></center></li>
         <!--LOS ESTADOS DE MEXICO------------------------------------------------------------------------------------------------------------------------------->
-        <center><Label>Estado:</Label></center>
+        <li><center><Label>Estado:</Label></center>
         <center><select name="estado">
             <option value="no">Seleccione uno...</option>
             <option value="Aguascalientes">Aguascalientes</option>
@@ -67,9 +67,9 @@
             <option value="Veracruz">Veracruz</option>
             <option value="Yucatán">Yucatán</option>
             <option value="Zacatecas">Zacatecas</option>
-        </select></center>
+        </select></center></li>
         <!--MUNICIPIOS DE MEXICO--------------------------------------------------------------------------------------------------------------------------------->
-        <center><Label>Municipio:</Label></center>
+        <li><center><Label>Municipio:</Label></center>
         <center><select name="municipio">
             <option value="no">Seleccione uno...</option> <option value="Aguascalientes">-AGUASCALIENTES-</option> <option value="Aguascalientes">"Aguascalientes"</option> <option value="Aguascalientes">"Asientos"</option>
             <option value="Aguascalientes">"Calvillo"</option> <option value="Aguascalientes">"Cosio"</option> <option value="Aguascalientes">"El Llano"</option> <option value="Aguascalientes">"Jesus Maria"</option>
@@ -1354,12 +1354,13 @@
             <option value="Zacatecas">"Villa de Cos"</option>
             <option value="Zacatecas">"Villanueva"</option>
             <option value="Zacatecas">"Zacatecas"</option>
-        </select></center>
+        </select></center></li>
         <!--Introduzca su fecha de nacimiento-->
-        <center><Label>Fecha de nacimiento:</Label></center>
-        <center><input type="date" placeholder=""></center>
+        <li><center><Label>Fecha de nacimiento:</Label></center>
+        <center><input type="date" placeholder=""></center></li>
         <!--Boton para iniciar sesion-->
-        <center><button type="submit">Registrarse</button></center>
+        <li><center><button type="submit">Registrarse</button></center></li>
+    </ul>
     </form>
 </body>
 </html>
